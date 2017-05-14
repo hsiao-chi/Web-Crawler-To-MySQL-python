@@ -7,9 +7,9 @@ import urllib
 import gzip
 #------dataBase connect-------------
 db = MySQLdb.connect(host="localhost", 
-					user="srsei", 
-					passwd="srsei", 
-					db="Carassist",
+					user="userName", 
+					passwd="passwd", 
+					db="databaseName",
 					use_unicode=True,
 					charset="utf8")
 cursor = db.cursor()
